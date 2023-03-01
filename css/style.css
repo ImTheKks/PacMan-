@@ -22,16 +22,30 @@ body{
   background-size: 100%;
   background-repeat: no-repeat;
   
-  position: relative;
-  animation: mymove 10s infinite;
+ 
 }
 .pacman{
   height: 35px;
   width: 35px;
+   position: relative;
+  animation: mymove 5s infinite;
 }
 @keyframes mymove {
   0%{top: 0px;}
-  40%{top: 250px;}
-  50%{top: 250px; left: 0px;}
-  100%{top: 250px; left: 1500px;}
+  10%{top: 135px;}
+  15%{top: 135px; left: 0px;}
+  20%{top: 135px ; left: 83px;}
+  30%{ left: 83px; top: 390px;}
+  50%{ left: 737px; top: 390px;}
+  60%{ left: 737px; top: 90px;}
+  70%{ left: 485px; top: 90px;}
+  75%{ left: 485px; top: 140px;}
+  80%{ left: 440px; top: 140px;}
+  85%{ left: 440px; top: 187px;}
+  90%{ left: 410px; top: 187px;}
+  100%{ left: 410px; top: 240px;}
+  110%{ left: 410px; top: 240px;}
+  
+  
+ 
 }
