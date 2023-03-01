@@ -4,13 +4,30 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: red;
 }
-div{
-
+.grasa{
+  background-color: rgb(29, 19, 39);
+  color: white;
+}
+.container{
+  height: 100vh;
+  background-color: rgb(55, 32, 77);
+}
+.texiz{
+  color: white;
+}
+.fondo{
+  height: 80vh;
+  background-image: url(../images/fondo.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
   
   position: relative;
   animation: mymove 10s infinite;
+}
+.pacman{
+  height: 35px;
+  width: 35px;
 }
 @keyframes mymove {
   0%{top: 0px;}
