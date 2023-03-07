@@ -28,7 +28,7 @@ body{
   height: 35px;
   width: 35px;
    position: relative;
-  animation: mymove 5s infinite;
+  animation: mymove 10s infinite;
 }
 @keyframes mymove {
   0%{top: 0px;}
@@ -48,4 +48,33 @@ body{
   
   
  
+}
+@media only screen and (max-width: 600px) {
+  .container{
+    background-color: red;
+  }
+  h1{
+    font-size: 5rem;
+    background-color: white;
+    color: red;
+  }
+  .pacman{
+    height: 15px;
+    width: 15px;
+  }
+  @keyframes mymove {
+    0%{top: 0px;}
+    10%{top: 70px;}
+    15%{top: 70px; left: 0px;}
+    20%{top: 70px ; left: 40px;}
+    30%{ left: 40px; top: 185px;}
+    50%{ left: 100px; top: 185px;}
+    60%{ left: 100px; top: 213px;}
+    70%{ left: 235px; top: 213px;}
+    75%{ left: 235px; top: 185px;}
+    80%{ left: 270px; top: 185px;}
+    85%{ left: 270px; top: 100px;}
+    90%{ left: 223px; top: 100px;}
+    100%{ left: 223px; top: 130px;}
+  
 }
